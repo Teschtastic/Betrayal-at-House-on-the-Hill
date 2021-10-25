@@ -18,7 +18,7 @@
 		AA084845272361A20030A005 /* CharacterInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084844272361A20030A005 /* CharacterInfoViewController.swift */; };
 		AA084849272691D40030A005 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA084848272691D40030A005 /* Character.swift */; };
 		AA08484B272691E00030A005 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08484A272691E00030A005 /* Characters.swift */; };
-		AA181893272742AF001FF35B /* CharacterCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA181892272742AF001FF35B /* CharacterCellTableViewCell.swift */; };
+		AA181895272759A8001FF35B /* CharacterCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA181894272759A8001FF35B /* CharacterCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		AA084844272361A20030A005 /* CharacterInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoViewController.swift; sourceTree = "<group>"; };
 		AA084848272691D40030A005 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		AA08484A272691E00030A005 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
-		AA181892272742AF001FF35B /* CharacterCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterCellTableViewCell.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/CharacterCellTableViewCell.swift"; sourceTree = "<group>"; };
+		AA181894272759A8001FF35B /* CharacterCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				AA084824272242890030A005 /* Main.storyboard */,
-				AA181892272742AF001FF35B /* CharacterCellTableViewCell.swift */,
+				AA181894272759A8001FF35B /* CharacterCellTableViewCell.swift */,
 				AA08484127224F560030A005 /* CharacterCellTableViewCell.xib */,
 			);
 			path = View;
@@ -195,7 +195,7 @@
 				AA08481F272242890030A005 /* AppDelegate.swift in Sources */,
 				AA084821272242890030A005 /* SceneDelegate.swift in Sources */,
 				AA084845272361A20030A005 /* CharacterInfoViewController.swift in Sources */,
-				AA181893272742AF001FF35B /* CharacterCellTableViewCell.swift in Sources */,
+				AA181895272759A8001FF35B /* CharacterCellTableViewCell.swift in Sources */,
 				AA08484B272691E00030A005 /* Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
