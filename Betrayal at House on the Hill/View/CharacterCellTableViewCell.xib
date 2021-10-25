@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CharacterCellTableViewCell" rowHeight="100" id="KGk-i7-Jjw" customClass="CharacterCellTableViewCell" customModule="Betrayal_at_House_on_the_Hill" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="540" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="540" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="Em2-bD-6dx">
+                        <rect key="frame" x="80" y="29" width="440" height="31"/>
+                    </datePicker>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uu4-8h-Rie">
+                        <rect key="frame" x="20" y="14" width="41.5" height="78"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Em2-bD-6dx" firstAttribute="leading" secondItem="uu4-8h-Rie" secondAttribute="trailing" constant="18" id="Fzm-n0-4lT"/>
+                    <constraint firstItem="Em2-bD-6dx" firstAttribute="leading" secondItem="uu4-8h-Rie" secondAttribute="trailing" constant="18" id="X7W-6a-OD7"/>
+                    <constraint firstAttribute="trailing" secondItem="Em2-bD-6dx" secondAttribute="trailing" constant="20" symbolic="YES" id="drn-90-D6d"/>
+                    <constraint firstItem="Em2-bD-6dx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="eGJ-Ng-s0r"/>
+                    <constraint firstAttribute="bottom" secondItem="uu4-8h-Rie" secondAttribute="bottom" constant="14" id="n9U-Vo-Ehs"/>
+                    <constraint firstItem="uu4-8h-Rie" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="rh2-vP-eq6"/>
+                    <constraint firstAttribute="bottom" secondItem="Em2-bD-6dx" secondAttribute="bottom" constant="46" id="sZS-iW-tix"/>
+                    <constraint firstItem="uu4-8h-Rie" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="u06-U6-RAN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="birthday" destination="Em2-bD-6dx" id="Nto-0R-Lqf"/>
+                <outlet property="name" destination="uu4-8h-Rie" id="MHh-76-p6K"/>
+            </connections>
+            <point key="canvasLocation" x="297.10144927536237" y="105.80357142857143"/>
+        </tableViewCell>
+    </objects>
+</document>
