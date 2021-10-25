@@ -16,9 +16,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="540" height="106"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="Em2-bD-6dx">
-                        <rect key="frame" x="80" y="29" width="440" height="31"/>
-                    </datePicker>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uu4-8h-Rie">
                         <rect key="frame" x="20" y="14" width="41.5" height="78"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -27,19 +24,13 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Em2-bD-6dx" firstAttribute="leading" secondItem="uu4-8h-Rie" secondAttribute="trailing" constant="18" id="Fzm-n0-4lT"/>
-                    <constraint firstItem="Em2-bD-6dx" firstAttribute="leading" secondItem="uu4-8h-Rie" secondAttribute="trailing" constant="18" id="X7W-6a-OD7"/>
-                    <constraint firstAttribute="trailing" secondItem="Em2-bD-6dx" secondAttribute="trailing" constant="20" symbolic="YES" id="drn-90-D6d"/>
-                    <constraint firstItem="Em2-bD-6dx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="eGJ-Ng-s0r"/>
                     <constraint firstAttribute="bottom" secondItem="uu4-8h-Rie" secondAttribute="bottom" constant="14" id="n9U-Vo-Ehs"/>
                     <constraint firstItem="uu4-8h-Rie" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="rh2-vP-eq6"/>
-                    <constraint firstAttribute="bottom" secondItem="Em2-bD-6dx" secondAttribute="bottom" constant="46" id="sZS-iW-tix"/>
                     <constraint firstItem="uu4-8h-Rie" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="u06-U6-RAN"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="birthday" destination="Em2-bD-6dx" id="Nto-0R-Lqf"/>
                 <outlet property="name" destination="uu4-8h-Rie" id="MHh-76-p6K"/>
             </connections>
             <point key="canvasLocation" x="297.10144927536237" y="105.80357142857143"/>

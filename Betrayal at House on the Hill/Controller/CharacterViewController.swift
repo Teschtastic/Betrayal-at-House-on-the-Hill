@@ -38,10 +38,10 @@ class CharacterViewController: UIViewController {
         let detailViewController = segue.destination as! CharacterInfoViewController
         
         detailViewController.name = character.name
-        detailViewController.speed = "\(character.speed)"
-        detailViewController.might = "\(character.might)"
-        detailViewController.sanity = "\(character.sanity)"
-        detailViewController.knowledge = "\(character.knowledge)"
+        detailViewController.speed = "\(character.speed[character.speedIndex])"
+        detailViewController.might = "\(character.might[character.mightIndex])"
+        detailViewController.sanity = "\(character.sanity[character.sanityIndex])"
+        detailViewController.knowledge = "\(character.knowledge[character.knowledgeIndex])"
     }
     
 }
@@ -61,10 +61,6 @@ extension CharacterViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CharacterCellTableViewCell", for: indexPath) as? CharacterCellTableViewCell
         
         cell!.name?.text = character.name
-        
-        let bday = Calendar(identifier: .gregorian)
-        cell!.birthday?.setDate(bday.date(from: character.birthday!)!, animated: true)
-        
         cell!.backgroundColor = character.color
         
         return cell!
