@@ -38,6 +38,13 @@ class CharacterViewController: UIViewController {
         let detailViewController = segue.destination as! CharacterInfoViewController
         
         detailViewController.name = character.name
+        detailViewController.age = "\(character.age)"
+        detailViewController.birthday = character.birthday
+        detailViewController.desc = character.description
+        detailViewController.hobbies = "\(character.hobbies)"
+        detailViewController.fears = character.fears
+        detailViewController.color = character.color
+        
         detailViewController.speed = "\(character.speed[character.speedIndex])"
         detailViewController.might = "\(character.might[character.mightIndex])"
         detailViewController.sanity = "\(character.sanity[character.sanityIndex])"
